@@ -1,7 +1,7 @@
 [package]
-name = "countdown-rs"
-version = "0.3.0"
-authors = ["zenito9970 <zenito9970@gmail.com>"]
+name = "countdown"
+version = "0.4.0"
+authors = ["zenito9970 <zenito9970@gmail.com>", "@savchenko"]
 edition = "2018"
 
 [dependencies]

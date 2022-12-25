@@ -1,8 +1,8 @@
 Terminal Countdown Timer (Rust implementation)
 ===
 
-The original implementation of this was inspired by Anton Medvedev.  
-Original implementation => [antonmedv/countdown](https://github.com/antonmedv/countdown)
+Forked from https://github.com/zenito9970/countdown-rs
+This one does not use fancy ASCII characters to draw the remaining time.
 
 Usage
 ---
@@ -25,8 +25,8 @@ Install
 ---
 
 ```
-git clone https://github.com/zenito9970/countdown-rs.git
-cd countdown-rs
+git clone https://github.com/savchenko/countdown
+cd countdown
 cargo install --path .
 ```
 
