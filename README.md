@@ -1,7 +1,8 @@
-Terminal Countdown Timer (Rust implementation)
+Countdown Timer
 ===
 
 Forked from https://github.com/zenito9970/countdown-rs
+
 This one does not use fancy ASCII characters to draw the remaining time.
 
 Usage
