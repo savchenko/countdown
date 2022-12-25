@@ -58,13 +58,13 @@ fn parse_duration(duration: &str) -> time::Duration {
     time::Duration::new(3600 * h + 60 * m + s, 0)
 }
 
-fn draw(rb: &RustBox, remain: u64, table: &HashMap<char, ([&str; 6], usize)>) {
+fn draw(rb: &RustBox, remain: u64, table: &HashMap<char, ([&str; 1], usize)>) {
     let fmt = remain_to_fmt(remain);
     let symbols = fmt.chars().map(|c| table[&c]);
 
     let w_sum = symbols.clone().map(|(_, w)| w).fold(0, |sum, w| sum + w);
     let start_x = rb.width() / 2 - w_sum / 2;
-    let start_y = rb.height() / 2 - 3;
+    let start_y = rb.height() / 2;
 
     rb.clear();
 
